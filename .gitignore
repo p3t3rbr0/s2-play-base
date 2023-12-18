@@ -1,0 +1,17 @@
+logs
+target
+gradle*
+build.gradle
+project/
+/.g8
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+*.db
+*.sqlite
+*.class
+script/local
+metals.log

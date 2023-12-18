@@ -1,0 +1,81 @@
+<h4 id="title">Create new user</h4>
+
+<nav aria-label="breadcrumb">
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item"><a href="#/index">Index</a></li>
+		<li class="breadcrumb-item"><a href="#/users">Users list</a></li>
+		<li class="breadcrumb-item active" aria-current="page">Create</li>
+	</ol>
+</nav>
+
+<div class="row mt-3"></div>
+
+<div class="card bg-light">
+	<div class="card-header">
+		Create new user
+	</div>
+	<div class="card-body">
+		<form action="">
+			<div class="row">
+				<div class="col-sm-3">
+					<img src="/assets/admin/app/img/default-avatar.png" alt="avatar" class="img-thumbnail">
+					<div class="row mt-3"></div>
+					<button type="button" class="btn btn-info btn-block"><i class="fas fa-save"></i> Browse</button>
+				</div>
+				<div class="col-sm-9">
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="username">Username</label>
+							<input type="text" class="form-control" id="username" name="username" placeholder="Username">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="email">E-mail</label>
+							<input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+						</div>
+					</div>
+
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="first_name">First name</label>
+							<input type="text" class="form-control" id="first_name" name="first_name" placeholder="First name">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="last_name">Last name</label>
+							<input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last name">
+						</div>
+					</div>
+
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="password">Password</label>
+							<input type="password" class="form-control" id="password" name="password" placeholder="Password">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="password_confirm">Password confirm</label>
+							<input type="password" class="form-control" id="password_confirm" name="password_confirm" placeholder="Password confirm">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="is_activated" name="is_activated">
+							<label class="form-check-label" for="is_activated">
+								Is activated
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="is_admin" name="is_admin">
+							<label class="form-check-label" for="is_admin">
+								Is admin
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="card-footer">
+		<a href="#/users" class="btn btn-secondary mr-3"><i class="fas fa-chevron-left"></i></a>
+		<button id="create-user-btn" class="btn btn-success"><i class="fas fa-check"></i> Create</button>
+	</div>
+</div>

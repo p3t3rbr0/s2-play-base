@@ -1,0 +1,9 @@
+2020.10.01 15:18:39 INFO  started: Metals version 0.9.4 in workspace '/Volumes/data/peter/data/projects/play_base/app/services' for client emacs.
+2020.10.01 15:18:41 INFO  time: initialize in 1.43s
+2020.10.01 15:18:41 WARN  no build tool detected in workspace '/Volumes/data/peter/data/projects/play_base/app/services'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.01 15:18:44 INFO  no build target: using presentation compiler with only scala-library
+2020.10.01 15:18:44 WARN  no build target for: /Volumes/data/peter/data/projects/play_base/app/services/UserService.scala
+Oct 01, 2020 3:18:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10437
+Oct 01, 2020 3:18:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10441

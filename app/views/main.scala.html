@@ -1,0 +1,24 @@
+@(title: String, styles: Html = Html(""), scripts: Html = Html(""))(main: Html)(implicit request: RequestHeader)
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta content="" name="description" />
+        <meta content="Peter Brovchenko" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link href="@routes.Assets.versioned("admin/app/img/favicon.ico")" rel="shortcut icon" />
+		<title>@title</title>
+		<link href="@routes.Assets.versioned("admin/deps/bootstrap/css/bootstrap.min.css")" rel="stylesheet" type="text/css">
+		<link href="@routes.Assets.versioned("admin/deps/fontawesome/css/all.min.css")" rel="stylesheet" type="text/css">
+		<link href="@routes.Assets.versioned("admin/deps/fontawesome/css/fontawesome.min.css")" rel="stylesheet" type="text/css">
+        <link href="@routes.Assets.versioned("admin/app/css/style.css")" rel="stylesheet" type="text/css">
+		@styles
+	</head>
+	<body>
+		@main
+		<script src="@routes.Assets.versioned("admin/deps/requirejs/require.js")" type="text/javascript"></script>
+		<script src="@routes.Assets.versioned("admin/app/js/main.js")" type="text/javascript"></script>
+		@scripts
+	</body>
+</html>
